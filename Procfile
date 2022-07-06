@@ -1,1 +1,1 @@
-web: gunicorn dbops.dbops.wsgi
+web: gunicorn dbops.wsgi
