@@ -18,6 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mysql/', include('mysqldb.urls'))
-
+    path('mysql/', include('mysqldb.urls')),
+    path('cassandra/', include('cassandradb.urls')),
 ]
